@@ -106,7 +106,7 @@ para
 //Salve suas alterações. Isso garantirá que o XMR seja executado na porta 9505 como antes e 
 que o serviço da Web seja executado na porta 8080 apenas na interface de loopback.//
 
-Traga os containers de volta com essas mudanças:
+//Traga os containers de volta com essas mudanças://
 
 docker-compose -f cms_custom-ports.yml up -d   
 
@@ -189,11 +189,11 @@ as portas corretas a serem usadas e, em seguida, execute//
 
 docker-compose -f cms_custom-ports.yml up -d
 
-//Mudanças no LetsEncrypt
-Se você seguiu este guia anteriormente para ativar o SSL por meio do LetsEncrypt, eles mudaram a maneira 
-como os certificados são problemas em resposta a um relatório de segurança recebido em janeiro de 2018.
+//Mudanças no LetsEncrypt//
+//Se você seguiu este guia anteriormente para ativar o SSL por meio do LetsEncrypt, eles mudaram a maneira 
+como os certificados são problemas em resposta a um relatório de segurança recebido em janeiro de 2018.//
 
-Por favor, faça o seguinte para permitir que seus certificados sejam renovados:
+//Por favor, faça o seguinte para permitir que seus certificados sejam renovados://
 
 add-apt-repository ppa:certbot/certbot
 apt-get update
