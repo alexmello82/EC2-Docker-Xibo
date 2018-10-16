@@ -1,0 +1,6 @@
+##INSTALAÇÃO DO CMS##
+
+mkdir /opt/xibo
+cd /opt/xibo
+wget https://github.com/xibosignage/xibo-cms/releases/download/1.8.11/xibo-docker.tar.gz
+tar --strip 1 -zxvf xibo-docker.tar.gz
