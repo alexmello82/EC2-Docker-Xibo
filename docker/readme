@@ -21,4 +21,7 @@ docker-compose up -d
 
 //O CMS será baixado e executado e você poderá fazer o login no endereço IP do seu servidor//
 
-<image src:https://www.google.com.br/search?tbs=sbi:AMhZZitSAl4Kghrkk3RGHPTMqYP7IGzK4M8_1RdIBmwgAjjbp0TDngYD20fI0mVfINRjcdB7W_1uSM7p_1U_1RyxNKY4IeqRqOdMAKbx8QVZjxue3ul76o2IpXJTO_1l0o0tyrYXPXcOMP-_1f1cRhjg9nBGhR-wzfd_1NDICm28jtuCrAq6x6q5o-hvX9M_1qT6dOcI6dMLBzfn9t3rc7zO7whhEnuQiNRyVyNveRfSP8JVCv6YWjgJuzRfzF9vhF1Sp_1tYTFhJbny-_1Bw61dEUJaHsTzDDUdy1gp93STNtuQcmCCDLUKTSca_158cRMH8eIg1V4Q-EpWOLQM1itXLV_1XoqEiUSu7qXoDpaKLA#>
+//Configuração do Firewall//
+
+//Configurará o ufw firewall com as portas certas abertas para HTTP, SSH e XMR://
+
